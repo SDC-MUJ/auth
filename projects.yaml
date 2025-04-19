@@ -54,6 +54,13 @@ projects:
       - wall-of-fame
     team:
 
+  sdc-website:   
+    repos:
+      - sdc-website
+    team:
+      - InternetMadeCoder
+      - Kroszborg
+
 internal_team:
   devops:
     - arnavpraneet
