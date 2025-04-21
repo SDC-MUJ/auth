@@ -24,6 +24,7 @@ projects:
     repos:
       - NPTEL
     team:
+      - krishsharma0413
 
   sdc-admin-panel:
     repos:
