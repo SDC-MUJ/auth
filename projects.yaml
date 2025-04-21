@@ -22,7 +22,7 @@ projects:
 
   project-allocation-system:
     repos:
-      - NPTEL
+      - project-allocation-system
     team:
       - krishsharma0413
 
