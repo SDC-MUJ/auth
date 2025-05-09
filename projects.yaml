@@ -20,6 +20,13 @@ projects:
       - Swaraj07082
       - SharmaLaksh
 
+  mentor-mentee:
+    repos:
+      - mentor-mentee
+    team:
+      - gauravbhindwar
+      - ShivankG0EL
+
   NPTEL:
     repos:
       - NPTEL
@@ -46,6 +53,13 @@ projects:
       - sdc-chatbot
     team:
 
+  sdc-website:
+    repos:
+      - sdc-website
+    team:
+      - InternetMadeCoder
+      - Kroszborg
+
   travel-buddy:
     repos:
       - travel-buddy-frontend
@@ -60,13 +74,6 @@ projects:
     team:
       - crazy-vedic
       - KanishkValechha
-
-  sdc-website:
-    repos:
-      - sdc-website
-    team:
-      - InternetMadeCoder
-      - Kroszborg
 
 internal_team:
   project-manager:
