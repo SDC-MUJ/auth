@@ -9,7 +9,6 @@ projects:
     repos:
       - elective-allocation-system
     team:
-      - Hiya-Ghosh
 
   LMS:
     repos:
@@ -20,32 +19,27 @@ projects:
       - nrk018
       - Swaraj07082
       - SharmaLaksh
-      - Hiya-Ghosh
 
   NPTEL:
     repos:
       - NPTEL
     team:
-      - Hiya-Ghosh
 
   project-allocation-system:
     repos:
       - project-allocation-system
     team:
       - krishsharma0413
-      - Hiya-Ghosh
 
   sdc-admin-panel:
     repos:
       - sdc-admin-panel
     team:
-      - Hiya-Ghosh
 
   sdc-admin-panel-server:
     repos:
       - sdc-admin-panel-server
     team:
-      - Hiya-Ghosh
 
   sdc-chatbot:
     repos:
@@ -59,7 +53,6 @@ projects:
     team:
       - shivanshS04
       - bhasinagam
-      - Hiya-Ghosh
 
   wall-of-fame:
     repos:
@@ -67,7 +60,6 @@ projects:
     team:
       - crazy-vedic
       - KanishkValechha
-      - Hiya-Ghosh
 
   sdc-website:
     repos:
@@ -75,9 +67,11 @@ projects:
     team:
       - InternetMadeCoder
       - Kroszborg
-      - Hiya-Ghosh
 
 internal_team:
+  project-manager:
+    - Hiya-Ghosh
+
   devops:
     - arnavpraneet
     - whyredfire
