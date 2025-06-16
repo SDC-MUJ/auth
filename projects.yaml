@@ -14,6 +14,8 @@ projects:
     repos:
       - event-form
     team:
+      - InternetMadeCoder
+      - ritikjain07
 
   LMS:
     repos:
