@@ -10,6 +10,11 @@ projects:
       - elective-allocation-system
     team:
 
+  event-form:
+    repos:
+      - event-form
+    team:
+
   LMS:
     repos:
       - LMS
