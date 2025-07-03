@@ -68,9 +68,11 @@ projects:
     repos:
       - travel-buddy-frontend
       - travel-buddy-backend
+      - travel-buddy-flutter
     team:
       - shivanshS04
       - bhasinagam
+      - Dibek1910
 
   wall-of-fame:
     repos:
