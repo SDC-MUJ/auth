@@ -2,25 +2,25 @@ projects:
   athelink:
     repos:
       - athelink
-    team:
+    maintainers:
       - SuhaniTalreja
 
   elective-allocation-system:
     repos:
       - elective-allocation-system
-    team:
+    maintainers:
 
   event-form:
     repos:
       - event-form
-    team:
+    maintainers:
       - InternetMadeCoder
       - ritikjain07
 
   LMS:
     repos:
       - LMS
-    team:
+    maintainers:
       - git-Suyash
       - tusharb05
       - nrk018
@@ -30,36 +30,38 @@ projects:
   mentor-mentee:
     repos:
       - mentor-mentee
-    team:
+    maintainers:
       - gauravbhindwar
       - ShivankG0EL
 
   NPTEL:
     repos:
       - NPTEL
-    team:
+    maintainers:
+      - Mohit-Solankii
 
   project-allocation-system:
     repos:
       - project-allocation-system
-    team:
+    maintainers:
       - krishsharma0413
 
   sdc-admin-panel:
     repos:
       - sdc-admin-panel
       - sdc-admin-panel-server
-    team:
+    maintainers:
+      - InternetMadeCoder
 
   sdc-chatbot:
     repos:
       - sdc-chatbot
-    team:
+    maintainers:
 
   sdc-website:
     repos:
       - sdc-website
-    team:
+    maintainers:
       - InternetMadeCoder
       - Kroszborg
       - arukh281
@@ -69,7 +71,7 @@ projects:
       - travel-buddy-frontend
       - travel-buddy-backend
       - travel-buddy-flutter
-    team:
+    maintainers:
       - shivanshS04
       - bhasinagam
       - Dibek1910
@@ -77,7 +79,7 @@ projects:
   wall-of-fame:
     repos:
       - wall-of-fame
-    team:
+    maintainers:
       - crazy-vedic
       - KanishkValechha
 
