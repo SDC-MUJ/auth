@@ -48,10 +48,6 @@ projects:
   sdc-admin-panel:
     repos:
       - sdc-admin-panel
-    team:
-
-  sdc-admin-panel-server:
-    repos:
       - sdc-admin-panel-server
     team:
 
