@@ -83,6 +83,12 @@ projects:
       - crazy-vedic
       - KanishkValechha
 
+  circon-24:
+    repos:
+      - circon-24
+    maintainers:
+      - InternetMadeCoder
+
 internal_team:
   project-manager:
     - Hiya-Ghosh
