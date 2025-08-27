@@ -90,6 +90,12 @@ projects:
     maintainers:
       - InternetMadeCoder
 
+  trustnet-2026:
+    repos:
+      - trustnet-2026
+    maintainers:
+      - InternetMadeCoder
+
 internal_team:
   project-manager:
     - Hiya-Ghosh
