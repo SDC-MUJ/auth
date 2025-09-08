@@ -96,6 +96,13 @@ projects:
     maintainers:
       - InternetMadeCoder
 
+  master-auth:
+    repos:
+      - master-auth
+    maintainers:
+      - tusharb05
+      - InternetMadeCoder
+
 internal_team:
   project-manager:
     - Hiya-Ghosh
@@ -103,7 +110,6 @@ internal_team:
   devops:
     - arnavpraneet
     - whyredfire
-    - tusharb05
 
   admin:
     - SDCMUJ
