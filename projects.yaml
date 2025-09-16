@@ -96,6 +96,13 @@ projects:
     maintainers:
       - InternetMadeCoder
 
+    ICBHST:
+    repos:
+      - ICBHST
+    maintainers:
+      - InternetMadeCoder
+      - kapoor035
+
   master-auth:
     repos:
       - master-auth
