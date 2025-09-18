@@ -96,7 +96,7 @@ projects:
     maintainers:
       - InternetMadeCoder
 
-    ICBHST:
+  ICBHST:
     repos:
       - ICBHST
     maintainers:
