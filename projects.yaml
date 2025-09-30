@@ -40,6 +40,9 @@ projects:
       - NPTEL
     maintainers:
       - Mohit-Solankii
+      - Amritansh176
+      - git-Suyash
+      
 
   project-allocation-system:
     repos:
