@@ -56,6 +56,7 @@ projects:
       - sdc-admin-panel-server
     maintainers:
       - InternetMadeCoder
+      - krishsharma0413
 
   sdc-chatbot:
     repos:
@@ -69,6 +70,7 @@ projects:
       - InternetMadeCoder
       - Kroszborg
       - arukh281
+      - krishsharma0413
 
   travel-buddy:
     repos:
