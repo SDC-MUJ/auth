@@ -39,8 +39,12 @@ class Auth:
             collaborators: set[str] = {user.login.lower() for user in repo.get_collaborators()}
             self.logger.debug(f"Current collaborators for {repo.name}: {collaborators}")
 
+            # Fetch users with pending invites
+            pending_invites = {invite.invitee.login.lower() for invite in repo.get_pending_invitations()}
+            self.logger.debug(f"Pending invites for {repo.name}: {pending_invites}")
+
             # Handle new additions
-            additions = set(project.maintainers) - (collaborators | set(internal_team))
+            additions = set(project.maintainers) - (collaborators | set(internal_team) | pending_invites)
             for user in additions:
                 self.logger.info("Adding %s to %s", user, repo.name)
                 # DO NOT add collaborators in dry run

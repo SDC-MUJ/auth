@@ -21,4 +21,5 @@ jobs:
       - name: Run main.py
         env:
           X_GITHUB_TOKEN: ${{ secrets.X_GITHUB_TOKEN }}
+          DRY_RUN: ${{ vars.DRY_RUN }}
         run: uv run main.py
