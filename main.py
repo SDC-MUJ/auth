@@ -51,7 +51,7 @@ class Auth:
             # Warn for removals of old maintainers
             removals = collaborators - (set(project.maintainers) | set(internal_team))
             for user in removals:
-                self.logger.warning("Removing user %s from %s", user, repo.name)
+                self.logger.warning("Removing %s from %s", user, repo.name)
                 # DO NOT remove collaborators in dry run
                 if DRY_RUN:
                     continue

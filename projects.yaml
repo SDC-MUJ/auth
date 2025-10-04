@@ -42,7 +42,6 @@ projects:
       - Mohit-Solankii
       - Amritansh176
       - git-Suyash
-      
 
   project-allocation-system:
     repos:
@@ -123,6 +122,9 @@ internal_team:
   devops:
     - arnavpraneet
     - whyredfire
+    - tusharb05
+    - himanksingal
+    - vinayaktyagi10
 
   admin:
     - SDCMUJ
