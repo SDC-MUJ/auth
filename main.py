@@ -1,11 +1,15 @@
 from github import Github, UnknownObjectException
 from github.AuthenticatedUser import AuthenticatedUser
 from pydantic import BaseModel
+from github_secrets import update_org_repos_secrets
+from dotenv import load_dotenv
 
 from typing import Tuple
 import os
 import logging
 import yaml
+
+load_dotenv()
 
 logging.basicConfig(level=logging.INFO)
 logging.getLogger("urllib3").setLevel(logging.WARNING)
@@ -36,15 +40,22 @@ class Auth:
                     continue
                 repo = self.org.create_repo(name=repo_meta, private=True)
 
-            collaborators: set[str] = {user.login.lower() for user in repo.get_collaborators()}
+            collaborators: set[str] = {
+                user.login.lower() for user in repo.get_collaborators()
+            }
             self.logger.debug(f"Current collaborators for {repo.name}: {collaborators}")
 
             # Fetch users with pending invites
-            pending_invites = {invite.invitee.login.lower() for invite in repo.get_pending_invitations()}
+            pending_invites = {
+                invite.invitee.login.lower()
+                for invite in repo.get_pending_invitations()
+            }
             self.logger.debug(f"Pending invites for {repo.name}: {pending_invites}")
 
             # Handle new additions
-            additions = set(project.maintainers) - (collaborators | set(internal_team) | pending_invites)
+            additions = set(project.maintainers) - (
+                collaborators | set(internal_team) | pending_invites
+            )
             for user in additions:
                 self.logger.info("Adding %s to %s", user, repo.name)
                 # DO NOT add collaborators in dry run
@@ -107,9 +118,18 @@ def parse_and_flatten(projects_yaml: str) -> Tuple[list[Project], list[str], set
 
 def main():
     if DRY_RUN:
-        logging.info("DRY_RUN is activated. No write operations will be done on GitHub.")
+        logging.info(
+            "DRY_RUN is activated. No write operations will be done on GitHub."
+        )
 
     GITHUB_TOKEN = os.environ["X_GITHUB_TOKEN"]
+    DOCKER_SECRETS = {
+        "DOCKER_USERNAME": os.environ.get("DOCKER_USERNAME"),
+        "DOCKER_PASSWORD": os.environ.get("DOCKER_PASSWORD"),
+    }
+    update_org_repos_secrets(
+        "SDC-MUJ", GITHUB_TOKEN, DOCKER_SECRETS, test_mode=True, limit_repos=2
+    )
     auth = Auth(GITHUB_TOKEN)
 
     projects, internal_team, _ = parse_and_flatten("projects.yaml")
