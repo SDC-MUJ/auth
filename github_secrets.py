@@ -1,6 +1,7 @@
 def update_org_repos_secrets(
     org_name: str, github_token: str, secrets: dict, test_mode=True, limit_repos=None
 ):
+    """Update GitHub actions secrets across all repos"""
     from github import Github, Auth
     import requests, base64, nacl.public
 
@@ -13,12 +14,14 @@ def update_org_repos_secrets(
     }
 
     def encrypt_secret(public_key: str, secret_value: str) -> str:
+        """Encrypt a secret using repo's public key"""
         public_key_bytes = base64.b64decode(public_key)
         sealed_box = nacl.public.SealedBox(nacl.public.PublicKey(public_key_bytes))
         encrypted = sealed_box.encrypt(secret_value.encode("utf-8"))
         return base64.b64encode(encrypted).decode("utf-8")
 
     def update_repo_secrets(repo_name: str, secrets: dict):
+        """Update secrets for a single repo"""
         print(f"\nUpdating secrets for repository: {repo_name}")
         key_url = f"https://api.github.com/repos/{org_name}/{repo_name}/actions/secrets/public-key"
         r = requests.get(key_url, headers=headers)
