@@ -23,6 +23,8 @@ class Auth:
         self.github = Github(GITHUB_TOKEN)
         self.org = self.github.get_organization("SDC-MUJ")
         self.logger = logging.getLogger("auth")
+        self.docker_username = os.environ["DOCKER_USERNAME"]
+        self.docker_password = os.environ["DOCKER_PASSWORD"]
 
     def update_project(self, project: Project, internal_team: list[str]) -> None:
         for repo_meta in project.repos:
@@ -35,6 +37,11 @@ class Auth:
                 if DRY_RUN:
                     continue
                 repo = self.org.create_repo(name=repo_meta, private=True)
+
+                # Add docker registry secrets
+                self.logger.info("Adding docker registry secrets to %s", repo.name)
+                repo.create_secret("DOCKER_USERNAME", self.docker_username)
+                repo.create_secret("DOCKER_PASSWORD", self.docker_password)
 
             collaborators: set[str] = {user.login.lower() for user in repo.get_collaborators()}
             self.logger.debug(f"Current collaborators for {repo.name}: {collaborators}")
