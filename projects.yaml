@@ -117,6 +117,12 @@ projects:
       - InternetMadeCoder
       - himanksingal
 
+  ideahub:
+    repos:
+      - ideahub-website
+    maintainers:
+      - krishsharma0413
+
 internal_team:
   project-manager:
     - Hiya-Ghosh
