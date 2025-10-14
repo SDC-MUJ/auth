@@ -123,6 +123,13 @@ projects:
     maintainers:
       - krishsharma0413
 
+  apca:
+    repos:
+      - apca-static
+      - apca-admin
+    maintainers:
+      - krishsharma0413
+
 internal_team:
   project-manager:
     - Hiya-Ghosh
