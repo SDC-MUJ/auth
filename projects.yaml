@@ -9,7 +9,8 @@ projects:
     repos:
       - elective-allocation-system
     maintainers:
-
+      - viv2005ek
+      
   event-form:
     repos:
       - event-form
