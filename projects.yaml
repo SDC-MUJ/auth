@@ -5,12 +5,12 @@ projects:
     maintainers:
       - SuhaniTalreja
 
-  elective-allocation-system:
+  elective-management-system:
     repos:
-      - elective-allocation-system
+      - elective-management-system
     maintainers:
       - viv2005ek
-      
+
   event-form:
     repos:
       - event-form
