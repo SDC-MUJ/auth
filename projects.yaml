@@ -36,7 +36,16 @@ projects:
       - ShivankG0EL
       - thecoderwithHat
       - DoctorDictator
-
+  
+  it-ticketing-system:
+    repos:
+      - it-ticketing-system
+    maintainers:
+      - gauravbhindwar
+      - ShivankG0EL
+      - thecoderwithHat
+      - DoctorDictator
+  
   NPTEL:
     repos:
       - NPTEL
