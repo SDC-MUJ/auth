@@ -10,6 +10,7 @@ projects:
       - elective-management-system
     maintainers:
       - viv2005ek
+      - InternetMadeCoder
 
   event-form:
     repos:
@@ -121,6 +122,13 @@ projects:
       - InternetMadeCoder
       - kapoor035
       - Prasoonm11
+
+    ICBHST:
+    repos:
+      - ICBHST
+    maintainers:
+      - InternetMadeCoder
+      - kapoor035
 
   master-auth:
     repos:
