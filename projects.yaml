@@ -10,6 +10,7 @@ projects:
       - elective-management-system
     maintainers:
       - viv2005ek
+      - InternetMadeCoder
 
   event-form:
     repos:
