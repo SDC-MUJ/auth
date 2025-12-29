@@ -123,12 +123,12 @@ projects:
       - kapoor035
       - Prasoonm11
 
-    ICBHST:
-    repos:
-      - ICBHST
-    maintainers:
-      - InternetMadeCoder
-      - kapoor035
+    # ICBHST:
+    # repos:
+    #   - ICBHST
+    # maintainers:
+    #   - InternetMadeCoder
+    #   - kapoor035
 
   master-auth:
     repos:
