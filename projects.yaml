@@ -5,10 +5,11 @@ projects:
     maintainers:
       - SuhaniTalreja
 
-  elective-allocation-system:
+  elective-management-system:
     repos:
-      - elective-allocation-system
+      - elective-management-system
     maintainers:
+      - viv2005ek
 
   event-form:
     repos:
@@ -33,13 +34,25 @@ projects:
     maintainers:
       - gauravbhindwar
       - ShivankG0EL
-      - IMBoBx
-
+      - thecoderwithHat
+      - DoctorDictator
+  
+  it-ticketing-system:
+    repos:
+      - it-ticketing-system
+    maintainers:
+      - gauravbhindwar
+      - ShivankG0EL
+      - thecoderwithHat
+      - DoctorDictator
+  
   NPTEL:
     repos:
       - NPTEL
     maintainers:
       - Mohit-Solankii
+      - Amritansh176
+      - git-Suyash
 
   project-allocation-system:
     repos:
@@ -53,6 +66,7 @@ projects:
       - sdc-admin-panel-server
     maintainers:
       - InternetMadeCoder
+      - krishsharma0413
 
   sdc-chatbot:
     repos:
@@ -66,6 +80,7 @@ projects:
       - InternetMadeCoder
       - Kroszborg
       - arukh281
+      - krishsharma0413
 
   travel-buddy:
     repos:
@@ -76,6 +91,8 @@ projects:
       - shivanshS04
       - bhasinagam
       - Dibek1910
+      - InternetMadeCoder
+      - Aditya-0011
 
   wall-of-fame:
     repos:
@@ -95,6 +112,15 @@ projects:
       - trustnet-2026
     maintainers:
       - InternetMadeCoder
+      - Hardikgupta1709
+
+  ICBHST:
+    repos:
+      - ICBHST
+    maintainers:
+      - InternetMadeCoder
+      - kapoor035
+      - Prasoonm11
 
     ICBHST:
     repos:
@@ -111,13 +137,30 @@ projects:
       - InternetMadeCoder
       - himanksingal
 
+  ideahub:
+    repos:
+      - ideahub-website
+    maintainers:
+      - krishsharma0413
+
+  apca:
+    repos:
+      - apca-static
+      - apca-admin
+    maintainers:
+      - krishsharma0413
+
 internal_team:
   project-manager:
     - Hiya-Ghosh
+    - preetkulkarni
 
   devops:
     - arnavpraneet
     - whyredfire
+    - tusharb05
+    - himanksingal
+    - vinayaktyagi10
 
   admin:
     - SDCMUJ
