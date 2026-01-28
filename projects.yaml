@@ -150,6 +150,13 @@ projects:
       - apca-admin
     maintainers:
       - krishsharma0413
+      
+  attendance-monitoring-system:
+    repos:
+      - attendance-monitoring-system
+    maintainers:
+      - siddhant0610
+      - Mach808
 
 internal_team:
   project-manager:
