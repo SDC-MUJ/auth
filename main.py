@@ -50,6 +50,11 @@ class Auth:
             pending_invites = {invite.invitee.login.lower() for invite in repo.get_pending_invitations()}
             self.logger.debug(f"Pending invites for {repo.name}: {pending_invites}")
 
+            ####### temp
+            if (repo.name=="travel-buddy-frontend"):
+                pending_invites.discard("shashwat-deb")
+            ####### temp
+            
             # Handle new additions
             additions = set(project.maintainers) - (collaborators | set(internal_team) | pending_invites)
             for user in additions:
