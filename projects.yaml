@@ -37,7 +37,7 @@ projects:
       - ShivankG0EL
       - thecoderwithHat
       - DoctorDictator
-  
+
   it-ticketing-system:
     repos:
       - it-ticketing-system
@@ -46,7 +46,7 @@ projects:
       - ShivankG0EL
       - thecoderwithHat
       - DoctorDictator
-  
+
   NPTEL:
     repos:
       - NPTEL
@@ -93,7 +93,6 @@ projects:
       - Dibek1910
       - InternetMadeCoder
       - Aditya-0011
-      - Shashwat-deb
 
   wall-of-fame:
     repos:
@@ -150,7 +149,7 @@ projects:
       - apca-admin
     maintainers:
       - krishsharma0413
-      
+
   attendance-monitoring-system:
     repos:
       - attendance-monitoring-system
