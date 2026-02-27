@@ -162,6 +162,12 @@ projects:
       - siddhant0610
       - Mach808
 
+  icast-2026:
+    repos:
+      - icast-2026
+    maintainers:
+      - InternetMadeCoder
+
 internal_team:
   project-manager:
     - Hiya-Ghosh
