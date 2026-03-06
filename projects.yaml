@@ -168,6 +168,12 @@ projects:
     maintainers:
       - InternetMadeCoder
 
+  sdc-deployment-platform:
+    repos:
+      - sdc-deployment-platform
+    maintainers:
+      - tusharb05
+
 internal_team:
   project-manager:
     - Hiya-Ghosh
