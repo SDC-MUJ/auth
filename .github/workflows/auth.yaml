@@ -30,7 +30,7 @@ jobs:
         env:
           SYNC_PASSWORD: ${{ secrets.SYNC_PASSWORD }}
         run: |
-          curl -X POST https://deploy.sdcmuj.com/api/sync \ 
-          -H "SYNC_PASSWORD: $SYNC_PASSWORD" \ 
-          -H "Content-Type: application/x-yaml" \ 
-          --data-binary @projects.yaml
+          curl -f -X POST "https://deploy.sdcmuj.com/api/sync"
+          -H "SYNC_PASSWORD: ${SYNC_PASSWORD}"
+          -H "Content-Type: application/x-yaml"
+          --data-binary "@projects.yaml"
