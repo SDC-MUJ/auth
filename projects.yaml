@@ -75,7 +75,7 @@ projects:
   sdc-chatbot:
     repos:
       - sdc-chatbot
-    maintainers:
+    maintainers: []
 
   sdc-website:
     repos:
