@@ -167,6 +167,7 @@ projects:
       - icast-2026
     maintainers:
       - InternetMadeCoder
+      - Prasoonm11
 
   sdc-deployment-platform:
     repos:
