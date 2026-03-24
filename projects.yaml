@@ -175,6 +175,12 @@ projects:
     maintainers:
       - tusharb05
 
+  icaic:
+    repos:
+      - icaic
+    maintainers:
+      - vinayaktyagi10
+
 internal_team:
   project-manager:
     - Hiya-Ghosh
