@@ -184,6 +184,13 @@ projects:
       - achintyajain1502
       - InternetMadeCoder
 
+  auditorium-booking-system:
+    repos:
+      - SDC-Auditorium-Booking-System
+    maintainers:
+      - sanjanaaraii
+
+
 internal_team:
   project-manager:
     - Hiya-Ghosh
@@ -199,8 +206,3 @@ internal_team:
   admin:
     - SDCMUJ
 
-  auditorium-booking-system:
-    repos:
-      - SDC-Auditorium-Booking-System
-    maintainers:
-      - sanjanaaraii
