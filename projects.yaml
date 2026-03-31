@@ -198,3 +198,9 @@ internal_team:
 
   admin:
     - SDCMUJ
+
+  auditorium-booking-system:
+    repos:
+      - SDC-Auditorium-Booking-System
+    maintainers:
+      - sanjanaaraii
