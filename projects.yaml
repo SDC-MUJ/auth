@@ -186,7 +186,7 @@ projects:
 
   auditorium-booking-system:
     repos:
-      - SDC-Auditorium-Booking-System
+      - auditorium-booking-system
     maintainers:
       - sanjanaaraii
 
