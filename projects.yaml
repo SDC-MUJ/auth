@@ -190,6 +190,12 @@ projects:
       - auditorium-booking-system
     maintainers:
       - sanjanaaraii
+  
+  gpuallocation:
+    repos:
+      - gpuallocation
+    maintainers:
+      - adhyasharma1806    
 
 
 internal_team:
