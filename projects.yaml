@@ -72,6 +72,7 @@ projects:
     maintainers:
       - InternetMadeCoder
       - krishsharma0413
+      - achintyajain1502
 
   sdc-chatbot:
     repos:
@@ -87,6 +88,7 @@ projects:
       - arukh281
       - krishsharma0413
       - vinayaktyagi10
+      - achintyajain1502
 
   travel-buddy:
     repos:
