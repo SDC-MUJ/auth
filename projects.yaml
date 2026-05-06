@@ -198,14 +198,14 @@ projects:
       - gpuallocation
     maintainers:
       - adhyasharma1806   
-
-   RMS_MUJ:
+			
+  RMS_MUJ:
     repos:
       - RMS_MUJ
     maintainers:
-    - thecoderwithHat 
-    - isyedsamad
-    - DoctorDictator
+      - thecoderwithHat 
+      - isyedsamad
+      - DoctorDictator
 
 
 internal_team:
