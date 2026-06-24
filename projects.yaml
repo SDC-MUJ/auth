@@ -206,6 +206,12 @@ projects:
       - isyedsamad
       - DoctorDictator
       - adityasinha-1988
+
+  icqtam:
+    repos:
+      - icqtam
+    maintainers:
+      - achintyajain1502
       
 internal_team:
   project-manager:
