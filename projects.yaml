@@ -198,6 +198,12 @@ projects:
     maintainers:
       - adhyasharma1806
 
+    ICCAIML:
+    repos:
+      - ICCAIML
+    maintainers:
+      - achintyajain1502
+
   RMS_MUJ:
     repos:
       - RMS_MUJ
