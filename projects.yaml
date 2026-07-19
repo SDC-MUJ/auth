@@ -198,7 +198,7 @@ projects:
     maintainers:
       - adhyasharma1806
 
-    ICCAIML:
+  ICCAIML:
     repos:
       - ICCAIML
     maintainers:
