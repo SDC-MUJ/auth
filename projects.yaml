@@ -94,6 +94,8 @@ projects:
   travel-buddy:
     repos:
       - travel-buddy
+      - travel-buddy-frontend
+      - travel-buddy-backend
       - travel-buddy-flutter
     maintainers:
       - shivanshS04
