@@ -25,6 +25,8 @@ class Auth:
         self.logger = logging.getLogger("auth")
         self.docker_username = os.environ["DOCKER_USERNAME"]
         self.docker_password = os.environ["DOCKER_PASSWORD"]
+        self.deployment_platform_github_pat = os.environ["DEPLOYMENT_PLATFORM_GITHUB_PAT"]
+        self.deployment_platform_url = os.environ["DEPLOYMENT_PLATFORM_URL"]
 
     def update_project(self, project: Project, internal_team: list[str]) -> None:
         for repo_meta in project.repos:
@@ -42,6 +44,11 @@ class Auth:
                 self.logger.info("Adding docker registry secrets to %s", repo.name)
                 repo.create_secret("DOCKER_USERNAME", self.docker_username)
                 repo.create_secret("DOCKER_PASSWORD", self.docker_password)
+
+                # Add deployment platform secrets
+                self.logger.info("Adding deployment platform secrets to %s", repo.name)
+                repo.create_secret("DEPLOYMENT_PLATFORM_GITHUB_PAT", self.deployment_platform_github_pat)
+                repo.create_secret("DEPLOYMENT_PLATFORM_URL", self.deployment_platform_url)
 
             collaborators: set[str] = {user.login.lower() for user in repo.get_collaborators()}
             self.logger.debug(f"Current collaborators for {repo.name}: {collaborators}")

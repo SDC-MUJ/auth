@@ -24,6 +24,8 @@ jobs:
           DRY_RUN: ${{ vars.DRY_RUN }}
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+          DEPLOYMENT_PLATFORM_GITHUB_PAT: ${{ secrets.DEPLOYMENT_PLATFORM_GITHUB_PAT }}
+          DEPLOYMENT_PLATFORM_URL: ${{ secrets.DEPLOYMENT_PLATFORM_URL }}
         run: uv run main.py
 
       - name: Sync deployment platform
