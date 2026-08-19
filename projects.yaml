@@ -1,4 +1,10 @@
 projects:
+  event-management-system:
+    repos:
+      - CheckInIQ
+    maintainers:
+      - shresth70
+
   athelink:
     repos:
       - athelink
