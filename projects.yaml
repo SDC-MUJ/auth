@@ -4,7 +4,15 @@ projects:
       - CheckInIQ
     maintainers:
       - shresth70
-
+  
+  Faculty-Portal:
+    repos:
+      - Faculty-portal
+    maintainers:
+      - achintyajain1502
+      - DISHA7-debug
+      - Kaavyashah22
+      
   athelink:
     repos:
       - athelink
