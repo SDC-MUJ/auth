@@ -238,6 +238,12 @@ projects:
     maintainers:
       - achintyajain1502
       - Prasoonm11
+
+  icetics:
+    repos:
+      - icetics
+    maintainers:
+      - Prasoonm11
       
 internal_team:
   project-manager:
