@@ -56,7 +56,6 @@ projects:
     repos:
       - mentor-mentee
     maintainers:
-      - gauravbhindwar
       - ShivankG0EL
       - thecoderwithHat
       - DoctorDictator
@@ -68,7 +67,6 @@ projects:
     repos:
       - it-ticketing-system
     maintainers:
-      - gauravbhindwar
       - ShivankG0EL
       - thecoderwithHat
       - DoctorDictator
