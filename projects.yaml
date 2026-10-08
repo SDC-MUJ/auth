@@ -1,4 +1,10 @@
 projects:
+  server-monitoring:
+    repos:
+      - server-monitoring
+    maintainers:
+      - UtkrishtThakur
+  
   event-management-system:
     repos:
       - CheckInIQ
