@@ -1,4 +1,10 @@
 projects:
+  netzero-dashboard:
+    repos:
+      - netzero-dashboard
+    maintainers:
+      - Srishti-Gupta74
+  
   server-monitoring:
     repos:
       - server-monitoring
